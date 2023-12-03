@@ -14,7 +14,7 @@ Output from adding a print statement:
 
 ![Image](P3.png)
 
-After printing the contents of result in the body of the loop, I can see that every element that passes the if condition is added to the front of the array. The new list needs to maintain the order of the origninal list so the bug is that we add s in the position of the array. 
+After printing the contents of result in the body of the loop, I can see that every element that passes the if condition is added to the front of the array. The new list needs to maintain the order of the origninal list so the bug is that we add s in the wrong position of the array. 
 
 ## 4
 
