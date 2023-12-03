@@ -14,7 +14,7 @@ Output from adding a print statement:
 
 ![Image](P3.png)
 
-After printing the contents of result in the body of the loop, I can see that every element that passes the if condition is added to the front of the array. The new list needs to maintain the order of the origninal list so the bug is that we add s in the wrong location. 
+After printing the contents of result in the body of the loop, I can see that every element that passes the if condition is added to the front of the array. The new list needs to maintain the order of the origninal list so the bug is that we add s in the position of the array. 
 
 ## 4
 
@@ -86,7 +86,7 @@ Could have also typed ```bash grade.sh``` instead
 
 Because I we know that every element that passes the if condition is added to the front array which is the reverse order, we know that we need to add every element to the end of the array to maintain the order so ```result.add(0, s) ``` should be changed to ```result.add(s)``` so that every new element is added to the end of the array. The print statement can also be removed.
 
-This is the updated file which has the correct expected behavior
+This is the updated ListExamples.java file which has the correct expected behavior
 ```
 import java.util.ArrayList;
 import java.util.List;
